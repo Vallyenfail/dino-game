@@ -27,6 +27,12 @@ bullet_img = pygame.transform.scale(bullet_img, (30, 9))
 
 icon = pygame.image.load('Effects and background/CursorAttack.png')
 
+# Летучие мыши (задание 3.5) - используем спрайты птиц как заглушку
+bat_img = bird_img
+
+# Щит (задание 3.7) - используем сердечко как заглушку
+shield_img = health_img
+
 
 def set_theme(num):
     global land
